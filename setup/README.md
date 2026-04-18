@@ -69,3 +69,10 @@ User "admin" has been created but requires a password. Share this URL with the u
 https://teleport.codeinet.com:443/web/invite/xxxxxx
 ```
 
+Note: The following commands are now available:
+  teleport        - The daemon that runs the Auth Service, Proxy Service, and other Teleport services.
+  tsh             - A tool that lets end users interact with Teleport.
+  tctl            - An administrative tool that can configure the Teleport Auth Service.
+  tbot            - Teleport Machine ID client.
+  fdpass-teleport - Teleport Machine ID client.
+  teleport-update - Teleport auto-update agent.
